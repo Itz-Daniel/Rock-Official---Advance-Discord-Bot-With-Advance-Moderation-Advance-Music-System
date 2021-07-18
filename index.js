@@ -150,7 +150,7 @@ client.giveawaysManager.on(
           .setDescription(
             `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been approved!`
           )
-          .setFooter("Coded By Tech Boy Gaming")
+          .setFooter("Coded By </Coding Zone>")
           .setTimestamp()
       );
     } catch (error) {
@@ -162,7 +162,7 @@ client.giveawaysManager.on(
         .setDescription(
           `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been denied as you did not join **${guildx.name}**`
         )
-        .setFooter("Coded By Tech Boy Gaming")
+        .setFooter("Coded By </Coding Zone>")
       );
     }
   }
@@ -248,7 +248,7 @@ client.on("message", async (message) => {
       return message.channel.send(
         new Discord.MessageEmbed()
           .setColor("RED")
-          .setFooter("Made By Kabir Jaipal aka Tech Boy Gaming")
+          .setFooter("Made By </Coding Zone>")
           .setAuthor(message.author.tag)
           .setTitle(`You Mention me , Hahaha `)
           .setDescription(
