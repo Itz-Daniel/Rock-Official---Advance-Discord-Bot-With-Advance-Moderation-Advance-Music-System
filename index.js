@@ -248,7 +248,7 @@ client.on("message", async (message) => {
       return message.channel.send(
         new Discord.MessageEmbed()
           .setColor("RED")
-          .setFooter("Made By Kabir Jaipal aka Tech Boy Gaming")
+          .setFooter("Made By </Coding Zone>")
           .setAuthor(message.author.tag)
           .setTitle(`You Mention me , Hahaha `)
           .setDescription(
